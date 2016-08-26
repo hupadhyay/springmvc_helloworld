@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>3.2.1.RELEASE</spring.version>
+		<spring.version>4.2.0.RELEASE</spring.version>
 	</properties>
 
 	<dependencies>
@@ -31,12 +31,13 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
-			<scope>provided</scope>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>javax.servlet-api</artifactId>
+		    <version>3.1.0</version>
 		</dependency>
+
 
 	</dependencies>
 
